@@ -46,3 +46,5 @@ const data = [
     { name: 'Bob', age: 40 }
     ]
   ];    
+const names = data.flatMap(arr => arr.map(obj => obj.name));
+console.log(names);
